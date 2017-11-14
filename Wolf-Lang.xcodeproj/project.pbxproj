@@ -75,7 +75,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A9506CF01E69AAEB009A0045 /* gravity */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gravity; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9506CF01E69AAEB009A0045 /* Wolf-Lang */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Wolf-Lang"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9506CFC1E69AB1E009A0045 /* gravity.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gravity.c; sourceTree = "<group>"; };
 		A9506CFD1E69AB1E009A0045 /* unittest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = unittest.c; sourceTree = "<group>"; };
 		A9506CFF1E69AB1E009A0045 /* debug_macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = debug_macros.h; sourceTree = "<group>"; };
@@ -159,7 +159,7 @@
 		A9506CF11E69AAEB009A0045 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A9506CF01E69AAEB009A0045 /* gravity */,
+				A9506CF01E69AAEB009A0045 /* Wolf-Lang */,
 				A9506D371E69AB33009A0045 /* unittest */,
 			);
 			name = Products;
@@ -275,9 +275,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A9506CEF1E69AAEB009A0045 /* gravity */ = {
+		A9506CEF1E69AAEB009A0045 /* Wolf-Lang */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A9506CF71E69AAEB009A0045 /* Build configuration list for PBXNativeTarget "gravity" */;
+			buildConfigurationList = A9506CF71E69AAEB009A0045 /* Build configuration list for PBXNativeTarget "Wolf-Lang" */;
 			buildPhases = (
 				A9506CEC1E69AAEB009A0045 /* Sources */,
 				A9506CED1E69AAEB009A0045 /* Frameworks */,
@@ -287,9 +287,9 @@
 			);
 			dependencies = (
 			);
-			name = gravity;
+			name = "Wolf-Lang";
 			productName = gravity;
-			productReference = A9506CF01E69AAEB009A0045 /* gravity */;
+			productReference = A9506CF01E69AAEB009A0045 /* Wolf-Lang */;
 			productType = "com.apple.product-type.tool";
 		};
 		A9506D301E69AB33009A0045 /* unittest */ = {
@@ -324,7 +324,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A9506CEB1E69AAEB009A0045 /* Build configuration list for PBXProject "gravity" */;
+			buildConfigurationList = A9506CEB1E69AAEB009A0045 /* Build configuration list for PBXProject "Wolf-Lang" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -336,7 +336,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A9506CEF1E69AAEB009A0045 /* gravity */,
+				A9506CEF1E69AAEB009A0045 /* Wolf-Lang */,
 				A9506D301E69AB33009A0045 /* unittest */,
 			);
 		};
@@ -550,7 +550,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A9506CEB1E69AAEB009A0045 /* Build configuration list for PBXProject "gravity" */ = {
+		A9506CEB1E69AAEB009A0045 /* Build configuration list for PBXProject "Wolf-Lang" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A9506CF51E69AAEB009A0045 /* Debug */,
@@ -559,7 +559,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A9506CF71E69AAEB009A0045 /* Build configuration list for PBXNativeTarget "gravity" */ = {
+		A9506CF71E69AAEB009A0045 /* Build configuration list for PBXNativeTarget "Wolf-Lang" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A9506CF81E69AAEB009A0045 /* Debug */,
