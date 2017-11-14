@@ -7,42 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A9506D381E69AB66009A0045 /* gravity.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506CFC1E69AB1E009A0045 /* gravity.c */; };
+		A9506D381E69AB66009A0045 /* wolfLang.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506CFC1E69AB1E009A0045 /* wolfLang.c */; };
 		A9506D391E69AB6A009A0045 /* unittest.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506CFD1E69AB1E009A0045 /* unittest.c */; };
-		A9506D3A1E69AB78009A0045 /* gravity_ast.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D001E69AB1E009A0045 /* gravity_ast.c */; };
-		A9506D3B1E69AB78009A0045 /* gravity_codegen.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D021E69AB1E009A0045 /* gravity_codegen.c */; };
-		A9506D3C1E69AB78009A0045 /* gravity_compiler.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D041E69AB1E009A0045 /* gravity_compiler.c */; };
-		A9506D3D1E69AB78009A0045 /* gravity_ircode.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D061E69AB1E009A0045 /* gravity_ircode.c */; };
-		A9506D3E1E69AB78009A0045 /* gravity_lexer.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D081E69AB1E009A0045 /* gravity_lexer.c */; };
-		A9506D3F1E69AB78009A0045 /* gravity_optimizer.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D0A1E69AB1E009A0045 /* gravity_optimizer.c */; };
-		A9506D401E69AB78009A0045 /* gravity_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D0C1E69AB1E009A0045 /* gravity_parser.c */; };
-		A9506D411E69AB78009A0045 /* gravity_semacheck1.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D0E1E69AB1E009A0045 /* gravity_semacheck1.c */; };
-		A9506D421E69AB78009A0045 /* gravity_semacheck2.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D101E69AB1E009A0045 /* gravity_semacheck2.c */; };
-		A9506D431E69AB78009A0045 /* gravity_symboltable.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D121E69AB1E009A0045 /* gravity_symboltable.c */; };
-		A9506D441E69AB78009A0045 /* gravity_token.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D141E69AB1E009A0045 /* gravity_token.c */; };
-		A9506D451E69AB78009A0045 /* gravity_visitor.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D161E69AB1E009A0045 /* gravity_visitor.c */; };
-		A9506D461E69AB78009A0045 /* gravity_ast.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D001E69AB1E009A0045 /* gravity_ast.c */; };
-		A9506D471E69AB78009A0045 /* gravity_codegen.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D021E69AB1E009A0045 /* gravity_codegen.c */; };
-		A9506D481E69AB78009A0045 /* gravity_compiler.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D041E69AB1E009A0045 /* gravity_compiler.c */; };
-		A9506D491E69AB78009A0045 /* gravity_ircode.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D061E69AB1E009A0045 /* gravity_ircode.c */; };
-		A9506D4A1E69AB78009A0045 /* gravity_lexer.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D081E69AB1E009A0045 /* gravity_lexer.c */; };
-		A9506D4B1E69AB78009A0045 /* gravity_optimizer.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D0A1E69AB1E009A0045 /* gravity_optimizer.c */; };
-		A9506D4C1E69AB78009A0045 /* gravity_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D0C1E69AB1E009A0045 /* gravity_parser.c */; };
-		A9506D4D1E69AB78009A0045 /* gravity_semacheck1.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D0E1E69AB1E009A0045 /* gravity_semacheck1.c */; };
-		A9506D4E1E69AB78009A0045 /* gravity_semacheck2.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D101E69AB1E009A0045 /* gravity_semacheck2.c */; };
-		A9506D4F1E69AB78009A0045 /* gravity_symboltable.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D121E69AB1E009A0045 /* gravity_symboltable.c */; };
-		A9506D501E69AB78009A0045 /* gravity_token.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D141E69AB1E009A0045 /* gravity_token.c */; };
-		A9506D511E69AB78009A0045 /* gravity_visitor.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D161E69AB1E009A0045 /* gravity_visitor.c */; };
-		A9506D521E69AB7E009A0045 /* gravity_core.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D191E69AB1E009A0045 /* gravity_core.c */; };
-		A9506D531E69AB7E009A0045 /* gravity_vm.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D1B1E69AB1E009A0045 /* gravity_vm.c */; };
-		A9506D541E69AB7E009A0045 /* gravity_core.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D191E69AB1E009A0045 /* gravity_core.c */; };
-		A9506D551E69AB7E009A0045 /* gravity_vm.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D1B1E69AB1E009A0045 /* gravity_vm.c */; };
-		A9506D561E69AB86009A0045 /* gravity_hash.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D211E69AB1E009A0045 /* gravity_hash.c */; };
-		A9506D571E69AB86009A0045 /* gravity_memory.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D241E69AB1E009A0045 /* gravity_memory.c */; };
-		A9506D581E69AB86009A0045 /* gravity_value.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D271E69AB1E009A0045 /* gravity_value.c */; };
-		A9506D591E69AB86009A0045 /* gravity_hash.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D211E69AB1E009A0045 /* gravity_hash.c */; };
-		A9506D5A1E69AB86009A0045 /* gravity_memory.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D241E69AB1E009A0045 /* gravity_memory.c */; };
-		A9506D5B1E69AB86009A0045 /* gravity_value.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D271E69AB1E009A0045 /* gravity_value.c */; };
+		A9506D3A1E69AB78009A0045 /* wolfLang_ast.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D001E69AB1E009A0045 /* wolfLang_ast.c */; };
+		A9506D3B1E69AB78009A0045 /* wolfLang_codegen.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D021E69AB1E009A0045 /* wolfLang_codegen.c */; };
+		A9506D3C1E69AB78009A0045 /* wolfLang_compiler.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D041E69AB1E009A0045 /* wolfLang_compiler.c */; };
+		A9506D3D1E69AB78009A0045 /* wolfLang_ircode.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D061E69AB1E009A0045 /* wolfLang_ircode.c */; };
+		A9506D3E1E69AB78009A0045 /* wolfLang_lexer.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D081E69AB1E009A0045 /* wolfLang_lexer.c */; };
+		A9506D3F1E69AB78009A0045 /* wolfLang_optimizer.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D0A1E69AB1E009A0045 /* wolfLang_optimizer.c */; };
+		A9506D401E69AB78009A0045 /* wolfLang_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D0C1E69AB1E009A0045 /* wolfLang_parser.c */; };
+		A9506D411E69AB78009A0045 /* wolfLang_semacheck1.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D0E1E69AB1E009A0045 /* wolfLang_semacheck1.c */; };
+		A9506D421E69AB78009A0045 /* wolfLang_semacheck2.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D101E69AB1E009A0045 /* wolfLang_semacheck2.c */; };
+		A9506D431E69AB78009A0045 /* wolfLang_symboltable.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D121E69AB1E009A0045 /* wolfLang_symboltable.c */; };
+		A9506D441E69AB78009A0045 /* wolfLang_token.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D141E69AB1E009A0045 /* wolfLang_token.c */; };
+		A9506D451E69AB78009A0045 /* wolfLang_visitor.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D161E69AB1E009A0045 /* wolfLang_visitor.c */; };
+		A9506D461E69AB78009A0045 /* wolfLang_ast.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D001E69AB1E009A0045 /* wolfLang_ast.c */; };
+		A9506D471E69AB78009A0045 /* wolfLang_codegen.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D021E69AB1E009A0045 /* wolfLang_codegen.c */; };
+		A9506D481E69AB78009A0045 /* wolfLang_compiler.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D041E69AB1E009A0045 /* wolfLang_compiler.c */; };
+		A9506D491E69AB78009A0045 /* wolfLang_ircode.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D061E69AB1E009A0045 /* wolfLang_ircode.c */; };
+		A9506D4A1E69AB78009A0045 /* wolfLang_lexer.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D081E69AB1E009A0045 /* wolfLang_lexer.c */; };
+		A9506D4B1E69AB78009A0045 /* wolfLang_optimizer.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D0A1E69AB1E009A0045 /* wolfLang_optimizer.c */; };
+		A9506D4C1E69AB78009A0045 /* wolfLang_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D0C1E69AB1E009A0045 /* wolfLang_parser.c */; };
+		A9506D4D1E69AB78009A0045 /* wolfLang_semacheck1.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D0E1E69AB1E009A0045 /* wolfLang_semacheck1.c */; };
+		A9506D4E1E69AB78009A0045 /* wolfLang_semacheck2.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D101E69AB1E009A0045 /* wolfLang_semacheck2.c */; };
+		A9506D4F1E69AB78009A0045 /* wolfLang_symboltable.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D121E69AB1E009A0045 /* wolfLang_symboltable.c */; };
+		A9506D501E69AB78009A0045 /* wolfLang_token.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D141E69AB1E009A0045 /* wolfLang_token.c */; };
+		A9506D511E69AB78009A0045 /* wolfLang_visitor.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D161E69AB1E009A0045 /* wolfLang_visitor.c */; };
+		A9506D521E69AB7E009A0045 /* wolfLang_core.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D191E69AB1E009A0045 /* wolfLang_core.c */; };
+		A9506D531E69AB7E009A0045 /* wolfLang_vm.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D1B1E69AB1E009A0045 /* wolfLang_vm.c */; };
+		A9506D541E69AB7E009A0045 /* wolfLang_core.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D191E69AB1E009A0045 /* wolfLang_core.c */; };
+		A9506D551E69AB7E009A0045 /* wolfLang_vm.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D1B1E69AB1E009A0045 /* wolfLang_vm.c */; };
+		A9506D561E69AB86009A0045 /* wolfLang_hash.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D211E69AB1E009A0045 /* wolfLang_hash.c */; };
+		A9506D571E69AB86009A0045 /* wolfLang_memory.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D241E69AB1E009A0045 /* wolfLang_memory.c */; };
+		A9506D581E69AB86009A0045 /* wolfLang_value.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D271E69AB1E009A0045 /* wolfLang_value.c */; };
+		A9506D591E69AB86009A0045 /* wolfLang_hash.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D211E69AB1E009A0045 /* wolfLang_hash.c */; };
+		A9506D5A1E69AB86009A0045 /* wolfLang_memory.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D241E69AB1E009A0045 /* wolfLang_memory.c */; };
+		A9506D5B1E69AB86009A0045 /* wolfLang_value.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D271E69AB1E009A0045 /* wolfLang_value.c */; };
 		A9506D5C1E69AB8D009A0045 /* gravity_debug.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D2A1E69AB1E009A0045 /* gravity_debug.c */; };
 		A9506D5D1E69AB8D009A0045 /* gravity_json.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D2C1E69AB1E009A0045 /* gravity_json.c */; };
 		A9506D5E1E69AB8D009A0045 /* gravity_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D2E1E69AB1E009A0045 /* gravity_utils.c */; };
@@ -76,48 +76,48 @@
 
 /* Begin PBXFileReference section */
 		A9506CF01E69AAEB009A0045 /* Wolf-Lang */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Wolf-Lang"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9506CFC1E69AB1E009A0045 /* gravity.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gravity.c; sourceTree = "<group>"; };
+		A9506CFC1E69AB1E009A0045 /* wolfLang.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wolfLang.c; sourceTree = "<group>"; };
 		A9506CFD1E69AB1E009A0045 /* unittest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = unittest.c; sourceTree = "<group>"; };
 		A9506CFF1E69AB1E009A0045 /* debug_macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = debug_macros.h; sourceTree = "<group>"; };
-		A9506D001E69AB1E009A0045 /* gravity_ast.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gravity_ast.c; sourceTree = "<group>"; };
-		A9506D011E69AB1E009A0045 /* gravity_ast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gravity_ast.h; sourceTree = "<group>"; };
-		A9506D021E69AB1E009A0045 /* gravity_codegen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gravity_codegen.c; sourceTree = "<group>"; };
-		A9506D031E69AB1E009A0045 /* gravity_codegen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gravity_codegen.h; sourceTree = "<group>"; };
-		A9506D041E69AB1E009A0045 /* gravity_compiler.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gravity_compiler.c; sourceTree = "<group>"; };
-		A9506D051E69AB1E009A0045 /* gravity_compiler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gravity_compiler.h; sourceTree = "<group>"; };
-		A9506D061E69AB1E009A0045 /* gravity_ircode.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gravity_ircode.c; sourceTree = "<group>"; };
-		A9506D071E69AB1E009A0045 /* gravity_ircode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gravity_ircode.h; sourceTree = "<group>"; };
-		A9506D081E69AB1E009A0045 /* gravity_lexer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gravity_lexer.c; sourceTree = "<group>"; };
-		A9506D091E69AB1E009A0045 /* gravity_lexer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gravity_lexer.h; sourceTree = "<group>"; };
-		A9506D0A1E69AB1E009A0045 /* gravity_optimizer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gravity_optimizer.c; sourceTree = "<group>"; };
-		A9506D0B1E69AB1E009A0045 /* gravity_optimizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gravity_optimizer.h; sourceTree = "<group>"; };
-		A9506D0C1E69AB1E009A0045 /* gravity_parser.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gravity_parser.c; sourceTree = "<group>"; };
-		A9506D0D1E69AB1E009A0045 /* gravity_parser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gravity_parser.h; sourceTree = "<group>"; };
-		A9506D0E1E69AB1E009A0045 /* gravity_semacheck1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gravity_semacheck1.c; sourceTree = "<group>"; };
-		A9506D0F1E69AB1E009A0045 /* gravity_semacheck1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gravity_semacheck1.h; sourceTree = "<group>"; };
-		A9506D101E69AB1E009A0045 /* gravity_semacheck2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gravity_semacheck2.c; sourceTree = "<group>"; };
-		A9506D111E69AB1E009A0045 /* gravity_semacheck2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gravity_semacheck2.h; sourceTree = "<group>"; };
-		A9506D121E69AB1E009A0045 /* gravity_symboltable.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gravity_symboltable.c; sourceTree = "<group>"; };
-		A9506D131E69AB1E009A0045 /* gravity_symboltable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gravity_symboltable.h; sourceTree = "<group>"; };
-		A9506D141E69AB1E009A0045 /* gravity_token.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gravity_token.c; sourceTree = "<group>"; };
-		A9506D151E69AB1E009A0045 /* gravity_token.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gravity_token.h; sourceTree = "<group>"; };
-		A9506D161E69AB1E009A0045 /* gravity_visitor.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gravity_visitor.c; sourceTree = "<group>"; };
-		A9506D171E69AB1E009A0045 /* gravity_visitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gravity_visitor.h; sourceTree = "<group>"; };
-		A9506D191E69AB1E009A0045 /* gravity_core.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gravity_core.c; sourceTree = "<group>"; };
-		A9506D1A1E69AB1E009A0045 /* gravity_core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gravity_core.h; sourceTree = "<group>"; };
-		A9506D1B1E69AB1E009A0045 /* gravity_vm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gravity_vm.c; sourceTree = "<group>"; };
-		A9506D1C1E69AB1E009A0045 /* gravity_vm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gravity_vm.h; sourceTree = "<group>"; };
-		A9506D1D1E69AB1E009A0045 /* gravity_vmmacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gravity_vmmacros.h; sourceTree = "<group>"; };
-		A9506D1F1E69AB1E009A0045 /* gravity_array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gravity_array.h; sourceTree = "<group>"; };
-		A9506D201E69AB1E009A0045 /* gravity_delegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gravity_delegate.h; sourceTree = "<group>"; };
-		A9506D211E69AB1E009A0045 /* gravity_hash.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gravity_hash.c; sourceTree = "<group>"; };
-		A9506D221E69AB1E009A0045 /* gravity_hash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gravity_hash.h; sourceTree = "<group>"; };
-		A9506D231E69AB1E009A0045 /* gravity_macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gravity_macros.h; sourceTree = "<group>"; };
-		A9506D241E69AB1E009A0045 /* gravity_memory.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gravity_memory.c; sourceTree = "<group>"; };
-		A9506D251E69AB1E009A0045 /* gravity_memory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gravity_memory.h; sourceTree = "<group>"; };
-		A9506D261E69AB1E009A0045 /* gravity_opcodes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gravity_opcodes.h; sourceTree = "<group>"; };
-		A9506D271E69AB1E009A0045 /* gravity_value.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gravity_value.c; sourceTree = "<group>"; };
-		A9506D281E69AB1E009A0045 /* gravity_value.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gravity_value.h; sourceTree = "<group>"; };
+		A9506D001E69AB1E009A0045 /* wolfLang_ast.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wolfLang_ast.c; sourceTree = "<group>"; };
+		A9506D011E69AB1E009A0045 /* wolfLang_ast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wolfLang_ast.h; sourceTree = "<group>"; };
+		A9506D021E69AB1E009A0045 /* wolfLang_codegen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wolfLang_codegen.c; sourceTree = "<group>"; };
+		A9506D031E69AB1E009A0045 /* wolfLang_codegen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wolfLang_codegen.h; sourceTree = "<group>"; };
+		A9506D041E69AB1E009A0045 /* wolfLang_compiler.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wolfLang_compiler.c; sourceTree = "<group>"; };
+		A9506D051E69AB1E009A0045 /* wolfLang_compiler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wolfLang_compiler.h; sourceTree = "<group>"; };
+		A9506D061E69AB1E009A0045 /* wolfLang_ircode.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wolfLang_ircode.c; sourceTree = "<group>"; };
+		A9506D071E69AB1E009A0045 /* wolfLang_ircode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wolfLang_ircode.h; sourceTree = "<group>"; };
+		A9506D081E69AB1E009A0045 /* wolfLang_lexer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wolfLang_lexer.c; sourceTree = "<group>"; };
+		A9506D091E69AB1E009A0045 /* wolfLang_lexer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wolfLang_lexer.h; sourceTree = "<group>"; };
+		A9506D0A1E69AB1E009A0045 /* wolfLang_optimizer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wolfLang_optimizer.c; sourceTree = "<group>"; };
+		A9506D0B1E69AB1E009A0045 /* wolfLang_optimizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wolfLang_optimizer.h; sourceTree = "<group>"; };
+		A9506D0C1E69AB1E009A0045 /* wolfLang_parser.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wolfLang_parser.c; sourceTree = "<group>"; };
+		A9506D0D1E69AB1E009A0045 /* wolfLang_parser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wolfLang_parser.h; sourceTree = "<group>"; };
+		A9506D0E1E69AB1E009A0045 /* wolfLang_semacheck1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wolfLang_semacheck1.c; sourceTree = "<group>"; };
+		A9506D0F1E69AB1E009A0045 /* wolfLang_semacheck1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wolfLang_semacheck1.h; sourceTree = "<group>"; };
+		A9506D101E69AB1E009A0045 /* wolfLang_semacheck2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wolfLang_semacheck2.c; sourceTree = "<group>"; };
+		A9506D111E69AB1E009A0045 /* wolfLang_semacheck2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wolfLang_semacheck2.h; sourceTree = "<group>"; };
+		A9506D121E69AB1E009A0045 /* wolfLang_symboltable.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wolfLang_symboltable.c; sourceTree = "<group>"; };
+		A9506D131E69AB1E009A0045 /* wolfLang_symboltable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wolfLang_symboltable.h; sourceTree = "<group>"; };
+		A9506D141E69AB1E009A0045 /* wolfLang_token.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wolfLang_token.c; sourceTree = "<group>"; };
+		A9506D151E69AB1E009A0045 /* wolfLang_token.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wolfLang_token.h; sourceTree = "<group>"; };
+		A9506D161E69AB1E009A0045 /* wolfLang_visitor.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wolfLang_visitor.c; sourceTree = "<group>"; };
+		A9506D171E69AB1E009A0045 /* wolfLang_visitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wolfLang_visitor.h; sourceTree = "<group>"; };
+		A9506D191E69AB1E009A0045 /* wolfLang_core.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wolfLang_core.c; sourceTree = "<group>"; };
+		A9506D1A1E69AB1E009A0045 /* wolfLang_core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wolfLang_core.h; sourceTree = "<group>"; };
+		A9506D1B1E69AB1E009A0045 /* wolfLang_vm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wolfLang_vm.c; sourceTree = "<group>"; };
+		A9506D1C1E69AB1E009A0045 /* wolfLang_vm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wolfLang_vm.h; sourceTree = "<group>"; };
+		A9506D1D1E69AB1E009A0045 /* wolfLang_vmmacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wolfLang_vmmacros.h; sourceTree = "<group>"; };
+		A9506D1F1E69AB1E009A0045 /* wolfLang_array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wolfLang_array.h; sourceTree = "<group>"; };
+		A9506D201E69AB1E009A0045 /* wolfLang_delegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wolfLang_delegate.h; sourceTree = "<group>"; };
+		A9506D211E69AB1E009A0045 /* wolfLang_hash.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wolfLang_hash.c; sourceTree = "<group>"; };
+		A9506D221E69AB1E009A0045 /* wolfLang_hash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wolfLang_hash.h; sourceTree = "<group>"; };
+		A9506D231E69AB1E009A0045 /* wolfLang_macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wolfLang_macros.h; sourceTree = "<group>"; };
+		A9506D241E69AB1E009A0045 /* wolfLang_memory.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wolfLang_memory.c; sourceTree = "<group>"; };
+		A9506D251E69AB1E009A0045 /* wolfLang_memory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wolfLang_memory.h; sourceTree = "<group>"; };
+		A9506D261E69AB1E009A0045 /* wolfLang_opcodes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wolfLang_opcodes.h; sourceTree = "<group>"; };
+		A9506D271E69AB1E009A0045 /* wolfLang_value.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wolfLang_value.c; sourceTree = "<group>"; };
+		A9506D281E69AB1E009A0045 /* wolfLang_value.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wolfLang_value.h; sourceTree = "<group>"; };
 		A9506D2A1E69AB1E009A0045 /* gravity_debug.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gravity_debug.c; sourceTree = "<group>"; };
 		A9506D2B1E69AB1E009A0045 /* gravity_debug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gravity_debug.h; sourceTree = "<group>"; };
 		A9506D2C1E69AB1E009A0045 /* gravity_json.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gravity_json.c; sourceTree = "<group>"; };
@@ -151,7 +151,7 @@
 		A9506CE71E69AAEB009A0045 = {
 			isa = PBXGroup;
 			children = (
-				A9506CFA1E69AB1E009A0045 /* gravity */,
+				A9506CFA1E69AB1E009A0045 /* wolf-lang */,
 				A9506CF11E69AAEB009A0045 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -165,7 +165,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A9506CFA1E69AB1E009A0045 /* gravity */ = {
+		A9506CFA1E69AB1E009A0045 /* wolf-lang */ = {
 			isa = PBXGroup;
 			children = (
 				A9506CFB1E69AB1E009A0045 /* cli */,
@@ -175,14 +175,14 @@
 				A9506D291E69AB1E009A0045 /* utils */,
 				A9BB72EB1F470832002FD2D6 /* optionals */,
 			);
-			name = gravity;
+			name = "wolf-lang";
 			path = src;
 			sourceTree = "<group>";
 		};
 		A9506CFB1E69AB1E009A0045 /* cli */ = {
 			isa = PBXGroup;
 			children = (
-				A9506CFC1E69AB1E009A0045 /* gravity.c */,
+				A9506CFC1E69AB1E009A0045 /* wolfLang.c */,
 				A9506CFD1E69AB1E009A0045 /* unittest.c */,
 			);
 			path = cli;
@@ -192,30 +192,30 @@
 			isa = PBXGroup;
 			children = (
 				A9506CFF1E69AB1E009A0045 /* debug_macros.h */,
-				A9506D001E69AB1E009A0045 /* gravity_ast.c */,
-				A9506D011E69AB1E009A0045 /* gravity_ast.h */,
-				A9506D021E69AB1E009A0045 /* gravity_codegen.c */,
-				A9506D031E69AB1E009A0045 /* gravity_codegen.h */,
-				A9506D041E69AB1E009A0045 /* gravity_compiler.c */,
-				A9506D051E69AB1E009A0045 /* gravity_compiler.h */,
-				A9506D061E69AB1E009A0045 /* gravity_ircode.c */,
-				A9506D071E69AB1E009A0045 /* gravity_ircode.h */,
-				A9506D081E69AB1E009A0045 /* gravity_lexer.c */,
-				A9506D091E69AB1E009A0045 /* gravity_lexer.h */,
-				A9506D0A1E69AB1E009A0045 /* gravity_optimizer.c */,
-				A9506D0B1E69AB1E009A0045 /* gravity_optimizer.h */,
-				A9506D0C1E69AB1E009A0045 /* gravity_parser.c */,
-				A9506D0D1E69AB1E009A0045 /* gravity_parser.h */,
-				A9506D0E1E69AB1E009A0045 /* gravity_semacheck1.c */,
-				A9506D0F1E69AB1E009A0045 /* gravity_semacheck1.h */,
-				A9506D101E69AB1E009A0045 /* gravity_semacheck2.c */,
-				A9506D111E69AB1E009A0045 /* gravity_semacheck2.h */,
-				A9506D121E69AB1E009A0045 /* gravity_symboltable.c */,
-				A9506D131E69AB1E009A0045 /* gravity_symboltable.h */,
-				A9506D141E69AB1E009A0045 /* gravity_token.c */,
-				A9506D151E69AB1E009A0045 /* gravity_token.h */,
-				A9506D161E69AB1E009A0045 /* gravity_visitor.c */,
-				A9506D171E69AB1E009A0045 /* gravity_visitor.h */,
+				A9506D001E69AB1E009A0045 /* wolfLang_ast.c */,
+				A9506D011E69AB1E009A0045 /* wolfLang_ast.h */,
+				A9506D021E69AB1E009A0045 /* wolfLang_codegen.c */,
+				A9506D031E69AB1E009A0045 /* wolfLang_codegen.h */,
+				A9506D041E69AB1E009A0045 /* wolfLang_compiler.c */,
+				A9506D051E69AB1E009A0045 /* wolfLang_compiler.h */,
+				A9506D061E69AB1E009A0045 /* wolfLang_ircode.c */,
+				A9506D071E69AB1E009A0045 /* wolfLang_ircode.h */,
+				A9506D081E69AB1E009A0045 /* wolfLang_lexer.c */,
+				A9506D091E69AB1E009A0045 /* wolfLang_lexer.h */,
+				A9506D0A1E69AB1E009A0045 /* wolfLang_optimizer.c */,
+				A9506D0B1E69AB1E009A0045 /* wolfLang_optimizer.h */,
+				A9506D0C1E69AB1E009A0045 /* wolfLang_parser.c */,
+				A9506D0D1E69AB1E009A0045 /* wolfLang_parser.h */,
+				A9506D0E1E69AB1E009A0045 /* wolfLang_semacheck1.c */,
+				A9506D0F1E69AB1E009A0045 /* wolfLang_semacheck1.h */,
+				A9506D101E69AB1E009A0045 /* wolfLang_semacheck2.c */,
+				A9506D111E69AB1E009A0045 /* wolfLang_semacheck2.h */,
+				A9506D121E69AB1E009A0045 /* wolfLang_symboltable.c */,
+				A9506D131E69AB1E009A0045 /* wolfLang_symboltable.h */,
+				A9506D141E69AB1E009A0045 /* wolfLang_token.c */,
+				A9506D151E69AB1E009A0045 /* wolfLang_token.h */,
+				A9506D161E69AB1E009A0045 /* wolfLang_visitor.c */,
+				A9506D171E69AB1E009A0045 /* wolfLang_visitor.h */,
 			);
 			path = compiler;
 			sourceTree = "<group>";
@@ -223,11 +223,11 @@
 		A9506D181E69AB1E009A0045 /* runtime */ = {
 			isa = PBXGroup;
 			children = (
-				A9506D191E69AB1E009A0045 /* gravity_core.c */,
-				A9506D1A1E69AB1E009A0045 /* gravity_core.h */,
-				A9506D1B1E69AB1E009A0045 /* gravity_vm.c */,
-				A9506D1C1E69AB1E009A0045 /* gravity_vm.h */,
-				A9506D1D1E69AB1E009A0045 /* gravity_vmmacros.h */,
+				A9506D191E69AB1E009A0045 /* wolfLang_core.c */,
+				A9506D1A1E69AB1E009A0045 /* wolfLang_core.h */,
+				A9506D1B1E69AB1E009A0045 /* wolfLang_vm.c */,
+				A9506D1C1E69AB1E009A0045 /* wolfLang_vm.h */,
+				A9506D1D1E69AB1E009A0045 /* wolfLang_vmmacros.h */,
 			);
 			path = runtime;
 			sourceTree = "<group>";
@@ -235,16 +235,16 @@
 		A9506D1E1E69AB1E009A0045 /* shared */ = {
 			isa = PBXGroup;
 			children = (
-				A9506D1F1E69AB1E009A0045 /* gravity_array.h */,
-				A9506D201E69AB1E009A0045 /* gravity_delegate.h */,
-				A9506D211E69AB1E009A0045 /* gravity_hash.c */,
-				A9506D221E69AB1E009A0045 /* gravity_hash.h */,
-				A9506D231E69AB1E009A0045 /* gravity_macros.h */,
-				A9506D241E69AB1E009A0045 /* gravity_memory.c */,
-				A9506D251E69AB1E009A0045 /* gravity_memory.h */,
-				A9506D261E69AB1E009A0045 /* gravity_opcodes.h */,
-				A9506D271E69AB1E009A0045 /* gravity_value.c */,
-				A9506D281E69AB1E009A0045 /* gravity_value.h */,
+				A9506D1F1E69AB1E009A0045 /* wolfLang_array.h */,
+				A9506D201E69AB1E009A0045 /* wolfLang_delegate.h */,
+				A9506D211E69AB1E009A0045 /* wolfLang_hash.c */,
+				A9506D221E69AB1E009A0045 /* wolfLang_hash.h */,
+				A9506D231E69AB1E009A0045 /* wolfLang_macros.h */,
+				A9506D241E69AB1E009A0045 /* wolfLang_memory.c */,
+				A9506D251E69AB1E009A0045 /* wolfLang_memory.h */,
+				A9506D261E69AB1E009A0045 /* wolfLang_opcodes.h */,
+				A9506D271E69AB1E009A0045 /* wolfLang_value.c */,
+				A9506D281E69AB1E009A0045 /* wolfLang_value.h */,
 			);
 			path = shared;
 			sourceTree = "<group>";
@@ -347,28 +347,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9506D3D1E69AB78009A0045 /* gravity_ircode.c in Sources */,
-				A9506D3F1E69AB78009A0045 /* gravity_optimizer.c in Sources */,
-				A9506D441E69AB78009A0045 /* gravity_token.c in Sources */,
-				A9506D571E69AB86009A0045 /* gravity_memory.c in Sources */,
-				A9506D581E69AB86009A0045 /* gravity_value.c in Sources */,
-				A9506D3B1E69AB78009A0045 /* gravity_codegen.c in Sources */,
+				A9506D3D1E69AB78009A0045 /* wolfLang_ircode.c in Sources */,
+				A9506D3F1E69AB78009A0045 /* wolfLang_optimizer.c in Sources */,
+				A9506D441E69AB78009A0045 /* wolfLang_token.c in Sources */,
+				A9506D571E69AB86009A0045 /* wolfLang_memory.c in Sources */,
+				A9506D581E69AB86009A0045 /* wolfLang_value.c in Sources */,
+				A9506D3B1E69AB78009A0045 /* wolfLang_codegen.c in Sources */,
 				A9506D5D1E69AB8D009A0045 /* gravity_json.c in Sources */,
-				A9506D531E69AB7E009A0045 /* gravity_vm.c in Sources */,
-				A9506D411E69AB78009A0045 /* gravity_semacheck1.c in Sources */,
-				A9506D401E69AB78009A0045 /* gravity_parser.c in Sources */,
+				A9506D531E69AB7E009A0045 /* wolfLang_vm.c in Sources */,
+				A9506D411E69AB78009A0045 /* wolfLang_semacheck1.c in Sources */,
+				A9506D401E69AB78009A0045 /* wolfLang_parser.c in Sources */,
 				A9506D5C1E69AB8D009A0045 /* gravity_debug.c in Sources */,
-				A9506D381E69AB66009A0045 /* gravity.c in Sources */,
-				A9506D561E69AB86009A0045 /* gravity_hash.c in Sources */,
-				A9506D421E69AB78009A0045 /* gravity_semacheck2.c in Sources */,
-				A9506D3E1E69AB78009A0045 /* gravity_lexer.c in Sources */,
-				A9506D431E69AB78009A0045 /* gravity_symboltable.c in Sources */,
+				A9506D381E69AB66009A0045 /* wolfLang.c in Sources */,
+				A9506D561E69AB86009A0045 /* wolfLang_hash.c in Sources */,
+				A9506D421E69AB78009A0045 /* wolfLang_semacheck2.c in Sources */,
+				A9506D3E1E69AB78009A0045 /* wolfLang_lexer.c in Sources */,
+				A9506D431E69AB78009A0045 /* wolfLang_symboltable.c in Sources */,
 				A9BB72F01F470832002FD2D6 /* gravity_math.c in Sources */,
-				A9506D3A1E69AB78009A0045 /* gravity_ast.c in Sources */,
+				A9506D3A1E69AB78009A0045 /* wolfLang_ast.c in Sources */,
 				A9506D5E1E69AB8D009A0045 /* gravity_utils.c in Sources */,
-				A9506D451E69AB78009A0045 /* gravity_visitor.c in Sources */,
-				A9506D3C1E69AB78009A0045 /* gravity_compiler.c in Sources */,
-				A9506D521E69AB7E009A0045 /* gravity_core.c in Sources */,
+				A9506D451E69AB78009A0045 /* wolfLang_visitor.c in Sources */,
+				A9506D3C1E69AB78009A0045 /* wolfLang_compiler.c in Sources */,
+				A9506D521E69AB7E009A0045 /* wolfLang_core.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,28 +376,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9506D491E69AB78009A0045 /* gravity_ircode.c in Sources */,
-				A9506D4B1E69AB78009A0045 /* gravity_optimizer.c in Sources */,
-				A9506D501E69AB78009A0045 /* gravity_token.c in Sources */,
-				A9506D5A1E69AB86009A0045 /* gravity_memory.c in Sources */,
-				A9506D5B1E69AB86009A0045 /* gravity_value.c in Sources */,
-				A9506D471E69AB78009A0045 /* gravity_codegen.c in Sources */,
+				A9506D491E69AB78009A0045 /* wolfLang_ircode.c in Sources */,
+				A9506D4B1E69AB78009A0045 /* wolfLang_optimizer.c in Sources */,
+				A9506D501E69AB78009A0045 /* wolfLang_token.c in Sources */,
+				A9506D5A1E69AB86009A0045 /* wolfLang_memory.c in Sources */,
+				A9506D5B1E69AB86009A0045 /* wolfLang_value.c in Sources */,
+				A9506D471E69AB78009A0045 /* wolfLang_codegen.c in Sources */,
 				A9506D601E69AB8E009A0045 /* gravity_json.c in Sources */,
-				A9506D551E69AB7E009A0045 /* gravity_vm.c in Sources */,
-				A9506D4D1E69AB78009A0045 /* gravity_semacheck1.c in Sources */,
-				A9506D4C1E69AB78009A0045 /* gravity_parser.c in Sources */,
+				A9506D551E69AB7E009A0045 /* wolfLang_vm.c in Sources */,
+				A9506D4D1E69AB78009A0045 /* wolfLang_semacheck1.c in Sources */,
+				A9506D4C1E69AB78009A0045 /* wolfLang_parser.c in Sources */,
 				A9506D5F1E69AB8E009A0045 /* gravity_debug.c in Sources */,
 				A9506D391E69AB6A009A0045 /* unittest.c in Sources */,
-				A9506D591E69AB86009A0045 /* gravity_hash.c in Sources */,
-				A9506D4E1E69AB78009A0045 /* gravity_semacheck2.c in Sources */,
-				A9506D4A1E69AB78009A0045 /* gravity_lexer.c in Sources */,
-				A9506D4F1E69AB78009A0045 /* gravity_symboltable.c in Sources */,
+				A9506D591E69AB86009A0045 /* wolfLang_hash.c in Sources */,
+				A9506D4E1E69AB78009A0045 /* wolfLang_semacheck2.c in Sources */,
+				A9506D4A1E69AB78009A0045 /* wolfLang_lexer.c in Sources */,
+				A9506D4F1E69AB78009A0045 /* wolfLang_symboltable.c in Sources */,
 				A9BB72F21F470888002FD2D6 /* gravity_math.c in Sources */,
-				A9506D461E69AB78009A0045 /* gravity_ast.c in Sources */,
+				A9506D461E69AB78009A0045 /* wolfLang_ast.c in Sources */,
 				A9506D611E69AB8E009A0045 /* gravity_utils.c in Sources */,
-				A9506D511E69AB78009A0045 /* gravity_visitor.c in Sources */,
-				A9506D481E69AB78009A0045 /* gravity_compiler.c in Sources */,
-				A9506D541E69AB7E009A0045 /* gravity_core.c in Sources */,
+				A9506D511E69AB78009A0045 /* wolfLang_visitor.c in Sources */,
+				A9506D481E69AB78009A0045 /* wolfLang_compiler.c in Sources */,
+				A9506D541E69AB7E009A0045 /* wolfLang_core.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
