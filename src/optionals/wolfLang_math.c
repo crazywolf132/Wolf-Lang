@@ -1,5 +1,5 @@
 //
-//  gravity_math.c
+//  wolfLang_math.c
 //  gravity
 //
 //  Created by Marco Bambini on 14/08/2017.
@@ -10,12 +10,12 @@
 #include <math.h>
 #include <time.h>
 #include <inttypes.h>
-#include "gravity_vm.h"
-#include "gravity_math.h"
-#include "gravity_core.h"
-#include "gravity_hash.h"
-#include "gravity_macros.h"
-#include "gravity_vmmacros.h"
+#include "wolfLang_vm.h"
+#include "wolfLang_math.h"
+#include "wolfLang_core.h"
+#include "wolfLang_hash.h"
+#include "wolfLang_macros.h"
+#include "wolfLang_vmmacros.h"
 
 #define MATH_CLASS_NAME             "Math"
 

@@ -1,5 +1,5 @@
 //
-//  gravity_debug.c
+//  wolfLang_debug.c
 //  gravity
 //
 //  Created by Marco Bambini on 01/04/16.
@@ -7,9 +7,9 @@
 //
 
 #include <assert.h>
-#include "gravity_value.h"
-#include "gravity_debug.h"
-#include "gravity_vmmacros.h"
+#include "wolfLang_value.h"
+#include "wolfLang_debug.h"
+#include "wolfLang_vmmacros.h"
 
 const char *opcode_constname (int n) {
 	switch (n) {

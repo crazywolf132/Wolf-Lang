@@ -43,14 +43,14 @@
 		A9506D591E69AB86009A0045 /* wolfLang_hash.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D211E69AB1E009A0045 /* wolfLang_hash.c */; };
 		A9506D5A1E69AB86009A0045 /* wolfLang_memory.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D241E69AB1E009A0045 /* wolfLang_memory.c */; };
 		A9506D5B1E69AB86009A0045 /* wolfLang_value.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D271E69AB1E009A0045 /* wolfLang_value.c */; };
-		A9506D5C1E69AB8D009A0045 /* gravity_debug.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D2A1E69AB1E009A0045 /* gravity_debug.c */; };
-		A9506D5D1E69AB8D009A0045 /* gravity_json.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D2C1E69AB1E009A0045 /* gravity_json.c */; };
-		A9506D5E1E69AB8D009A0045 /* gravity_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D2E1E69AB1E009A0045 /* gravity_utils.c */; };
-		A9506D5F1E69AB8E009A0045 /* gravity_debug.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D2A1E69AB1E009A0045 /* gravity_debug.c */; };
-		A9506D601E69AB8E009A0045 /* gravity_json.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D2C1E69AB1E009A0045 /* gravity_json.c */; };
-		A9506D611E69AB8E009A0045 /* gravity_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D2E1E69AB1E009A0045 /* gravity_utils.c */; };
-		A9BB72F01F470832002FD2D6 /* gravity_math.c in Sources */ = {isa = PBXBuildFile; fileRef = A9BB72EC1F470832002FD2D6 /* gravity_math.c */; };
-		A9BB72F21F470888002FD2D6 /* gravity_math.c in Sources */ = {isa = PBXBuildFile; fileRef = A9BB72EC1F470832002FD2D6 /* gravity_math.c */; };
+		A9506D5C1E69AB8D009A0045 /* wolfLang_debug.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D2A1E69AB1E009A0045 /* wolfLang_debug.c */; };
+		A9506D5D1E69AB8D009A0045 /* wolfLang_json.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D2C1E69AB1E009A0045 /* wolfLang_json.c */; };
+		A9506D5E1E69AB8D009A0045 /* wolfLang_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D2E1E69AB1E009A0045 /* wolfLang_utils.c */; };
+		A9506D5F1E69AB8E009A0045 /* wolfLang_debug.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D2A1E69AB1E009A0045 /* wolfLang_debug.c */; };
+		A9506D601E69AB8E009A0045 /* wolfLang_json.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D2C1E69AB1E009A0045 /* wolfLang_json.c */; };
+		A9506D611E69AB8E009A0045 /* wolfLang_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = A9506D2E1E69AB1E009A0045 /* wolfLang_utils.c */; };
+		A9BB72F01F470832002FD2D6 /* wolfLang_math.c in Sources */ = {isa = PBXBuildFile; fileRef = A9BB72EC1F470832002FD2D6 /* wolfLang_math.c */; };
+		A9BB72F21F470888002FD2D6 /* wolfLang_math.c in Sources */ = {isa = PBXBuildFile; fileRef = A9BB72EC1F470832002FD2D6 /* wolfLang_math.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -118,16 +118,16 @@
 		A9506D261E69AB1E009A0045 /* wolfLang_opcodes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wolfLang_opcodes.h; sourceTree = "<group>"; };
 		A9506D271E69AB1E009A0045 /* wolfLang_value.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wolfLang_value.c; sourceTree = "<group>"; };
 		A9506D281E69AB1E009A0045 /* wolfLang_value.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wolfLang_value.h; sourceTree = "<group>"; };
-		A9506D2A1E69AB1E009A0045 /* gravity_debug.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gravity_debug.c; sourceTree = "<group>"; };
-		A9506D2B1E69AB1E009A0045 /* gravity_debug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gravity_debug.h; sourceTree = "<group>"; };
-		A9506D2C1E69AB1E009A0045 /* gravity_json.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gravity_json.c; sourceTree = "<group>"; };
-		A9506D2D1E69AB1E009A0045 /* gravity_json.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gravity_json.h; sourceTree = "<group>"; };
-		A9506D2E1E69AB1E009A0045 /* gravity_utils.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gravity_utils.c; sourceTree = "<group>"; };
-		A9506D2F1E69AB1E009A0045 /* gravity_utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gravity_utils.h; sourceTree = "<group>"; };
+		A9506D2A1E69AB1E009A0045 /* wolfLang_debug.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wolfLang_debug.c; sourceTree = "<group>"; };
+		A9506D2B1E69AB1E009A0045 /* wolfLang_debug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wolfLang_debug.h; sourceTree = "<group>"; };
+		A9506D2C1E69AB1E009A0045 /* wolfLang_json.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wolfLang_json.c; sourceTree = "<group>"; };
+		A9506D2D1E69AB1E009A0045 /* wolfLang_json.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wolfLang_json.h; sourceTree = "<group>"; };
+		A9506D2E1E69AB1E009A0045 /* wolfLang_utils.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wolfLang_utils.c; sourceTree = "<group>"; };
+		A9506D2F1E69AB1E009A0045 /* wolfLang_utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wolfLang_utils.h; sourceTree = "<group>"; };
 		A9506D371E69AB33009A0045 /* unittest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = unittest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9BB72EC1F470832002FD2D6 /* gravity_math.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gravity_math.c; sourceTree = "<group>"; };
-		A9BB72ED1F470832002FD2D6 /* gravity_math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gravity_math.h; sourceTree = "<group>"; };
-		A9BB72EE1F470832002FD2D6 /* gravity_optionals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gravity_optionals.h; sourceTree = "<group>"; };
+		A9BB72EC1F470832002FD2D6 /* wolfLang_math.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wolfLang_math.c; sourceTree = "<group>"; };
+		A9BB72ED1F470832002FD2D6 /* wolfLang_math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wolfLang_math.h; sourceTree = "<group>"; };
+		A9BB72EE1F470832002FD2D6 /* wolfLang_optionals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wolfLang_optionals.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,12 +252,12 @@
 		A9506D291E69AB1E009A0045 /* utils */ = {
 			isa = PBXGroup;
 			children = (
-				A9506D2A1E69AB1E009A0045 /* gravity_debug.c */,
-				A9506D2B1E69AB1E009A0045 /* gravity_debug.h */,
-				A9506D2C1E69AB1E009A0045 /* gravity_json.c */,
-				A9506D2D1E69AB1E009A0045 /* gravity_json.h */,
-				A9506D2E1E69AB1E009A0045 /* gravity_utils.c */,
-				A9506D2F1E69AB1E009A0045 /* gravity_utils.h */,
+				A9506D2A1E69AB1E009A0045 /* wolfLang_debug.c */,
+				A9506D2B1E69AB1E009A0045 /* wolfLang_debug.h */,
+				A9506D2C1E69AB1E009A0045 /* wolfLang_json.c */,
+				A9506D2D1E69AB1E009A0045 /* wolfLang_json.h */,
+				A9506D2E1E69AB1E009A0045 /* wolfLang_utils.c */,
+				A9506D2F1E69AB1E009A0045 /* wolfLang_utils.h */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -265,9 +265,9 @@
 		A9BB72EB1F470832002FD2D6 /* optionals */ = {
 			isa = PBXGroup;
 			children = (
-				A9BB72EC1F470832002FD2D6 /* gravity_math.c */,
-				A9BB72ED1F470832002FD2D6 /* gravity_math.h */,
-				A9BB72EE1F470832002FD2D6 /* gravity_optionals.h */,
+				A9BB72EC1F470832002FD2D6 /* wolfLang_math.c */,
+				A9BB72ED1F470832002FD2D6 /* wolfLang_math.h */,
+				A9BB72EE1F470832002FD2D6 /* wolfLang_optionals.h */,
 			);
 			path = optionals;
 			sourceTree = "<group>";
@@ -353,19 +353,19 @@
 				A9506D571E69AB86009A0045 /* wolfLang_memory.c in Sources */,
 				A9506D581E69AB86009A0045 /* wolfLang_value.c in Sources */,
 				A9506D3B1E69AB78009A0045 /* wolfLang_codegen.c in Sources */,
-				A9506D5D1E69AB8D009A0045 /* gravity_json.c in Sources */,
+				A9506D5D1E69AB8D009A0045 /* wolfLang_json.c in Sources */,
 				A9506D531E69AB7E009A0045 /* wolfLang_vm.c in Sources */,
 				A9506D411E69AB78009A0045 /* wolfLang_semacheck1.c in Sources */,
 				A9506D401E69AB78009A0045 /* wolfLang_parser.c in Sources */,
-				A9506D5C1E69AB8D009A0045 /* gravity_debug.c in Sources */,
+				A9506D5C1E69AB8D009A0045 /* wolfLang_debug.c in Sources */,
 				A9506D381E69AB66009A0045 /* wolfLang.c in Sources */,
 				A9506D561E69AB86009A0045 /* wolfLang_hash.c in Sources */,
 				A9506D421E69AB78009A0045 /* wolfLang_semacheck2.c in Sources */,
 				A9506D3E1E69AB78009A0045 /* wolfLang_lexer.c in Sources */,
 				A9506D431E69AB78009A0045 /* wolfLang_symboltable.c in Sources */,
-				A9BB72F01F470832002FD2D6 /* gravity_math.c in Sources */,
+				A9BB72F01F470832002FD2D6 /* wolfLang_math.c in Sources */,
 				A9506D3A1E69AB78009A0045 /* wolfLang_ast.c in Sources */,
-				A9506D5E1E69AB8D009A0045 /* gravity_utils.c in Sources */,
+				A9506D5E1E69AB8D009A0045 /* wolfLang_utils.c in Sources */,
 				A9506D451E69AB78009A0045 /* wolfLang_visitor.c in Sources */,
 				A9506D3C1E69AB78009A0045 /* wolfLang_compiler.c in Sources */,
 				A9506D521E69AB7E009A0045 /* wolfLang_core.c in Sources */,
@@ -382,19 +382,19 @@
 				A9506D5A1E69AB86009A0045 /* wolfLang_memory.c in Sources */,
 				A9506D5B1E69AB86009A0045 /* wolfLang_value.c in Sources */,
 				A9506D471E69AB78009A0045 /* wolfLang_codegen.c in Sources */,
-				A9506D601E69AB8E009A0045 /* gravity_json.c in Sources */,
+				A9506D601E69AB8E009A0045 /* wolfLang_json.c in Sources */,
 				A9506D551E69AB7E009A0045 /* wolfLang_vm.c in Sources */,
 				A9506D4D1E69AB78009A0045 /* wolfLang_semacheck1.c in Sources */,
 				A9506D4C1E69AB78009A0045 /* wolfLang_parser.c in Sources */,
-				A9506D5F1E69AB8E009A0045 /* gravity_debug.c in Sources */,
+				A9506D5F1E69AB8E009A0045 /* wolfLang_debug.c in Sources */,
 				A9506D391E69AB6A009A0045 /* unittest.c in Sources */,
 				A9506D591E69AB86009A0045 /* wolfLang_hash.c in Sources */,
 				A9506D4E1E69AB78009A0045 /* wolfLang_semacheck2.c in Sources */,
 				A9506D4A1E69AB78009A0045 /* wolfLang_lexer.c in Sources */,
 				A9506D4F1E69AB78009A0045 /* wolfLang_symboltable.c in Sources */,
-				A9BB72F21F470888002FD2D6 /* gravity_math.c in Sources */,
+				A9BB72F21F470888002FD2D6 /* wolfLang_math.c in Sources */,
 				A9506D461E69AB78009A0045 /* wolfLang_ast.c in Sources */,
-				A9506D611E69AB8E009A0045 /* gravity_utils.c in Sources */,
+				A9506D611E69AB8E009A0045 /* wolfLang_utils.c in Sources */,
 				A9506D511E69AB78009A0045 /* wolfLang_visitor.c in Sources */,
 				A9506D481E69AB78009A0045 /* wolfLang_compiler.c in Sources */,
 				A9506D541E69AB7E009A0045 /* wolfLang_core.c in Sources */,

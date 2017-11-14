@@ -27,9 +27,9 @@
  * SUCH DAMAGE.
  */
 
-#include "gravity_json.h"
-#include "gravity_utils.h"
-#include "gravity_memory.h"
+#include "wolfLang_json.h"
+#include "wolfLang_utils.h"
+#include "wolfLang_memory.h"
 
 #include <inttypes.h>
 #include <math.h>

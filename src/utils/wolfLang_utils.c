@@ -1,5 +1,5 @@
 //
-//  gravity_utils.c
+//  wolfLang_utils.c
 //  gravity
 //
 //  Created by Marco Bambini on 29/08/14.
@@ -26,8 +26,8 @@
 #include <tchar.h>
 #endif
 
-#include "gravity_utils.h"
-#include "gravity_memory.h"
+#include "wolfLang_utils.h"
+#include "wolfLang_memory.h"
 
 #define SWP(x,y) (x^=y, y^=x, x^=y)
 

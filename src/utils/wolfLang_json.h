@@ -2,8 +2,8 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-#ifndef __GRAVITY_JSON_SERIALIZER__
-#define __GRAVITY_JSON_SERIALIZER__
+#ifndef __WOLFLANG_JSON_SERIALIZER__
+#define __WOLFLANG_JSON_SERIALIZER__
 
 // MARK: JSON serializer -
 

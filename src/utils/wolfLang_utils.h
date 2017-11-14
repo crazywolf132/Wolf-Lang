@@ -1,13 +1,13 @@
 //
-//  gravity_utils.h
+//  wolfLang_utils.h
 //  gravity
 //
 //  Created by Marco Bambini on 29/08/14.
 //  Copyright (c) 2014 CreoLabs. All rights reserved.
 //
 
-#ifndef __GRAVITY_UTILS__
-#define __GRAVITY_UTILS__
+#ifndef __WOLFLANG_UTILS__
+#define __WOLFLANG_UTILS__
 
 #include <stdint.h>
 #include <stdbool.h>
